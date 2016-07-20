@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1944056D1D3F2ED30044645A /* MKDrawNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944056C1D3F2ED30044645A /* MKDrawNavigationViewController.m */; };
 		19874C551D3DEEAE00102A2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19874C541D3DEEAE00102A2F /* main.m */; };
 		19874C581D3DEEAE00102A2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19874C571D3DEEAE00102A2F /* AppDelegate.m */; };
 		19874C5B1D3DEEAE00102A2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19874C5A1D3DEEAE00102A2F /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1944056B1D3F2ED30044645A /* MKDrawNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDrawNavigationViewController.h; sourceTree = "<group>"; };
+		1944056C1D3F2ED30044645A /* MKDrawNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDrawNavigationViewController.m; sourceTree = "<group>"; };
 		19874C501D3DEEAE00102A2F /* MapKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19874C541D3DEEAE00102A2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19874C561D3DEEAE00102A2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				19874C8C1D3E0A5500102A2F /* MKAnnotationPin.m */,
 				19874C8E1D3E30ED00102A2F /* MKNavigationViewController.h */,
 				19874C8F1D3E30ED00102A2F /* MKNavigationViewController.m */,
+				1944056B1D3F2ED30044645A /* MKDrawNavigationViewController.h */,
+				1944056C1D3F2ED30044645A /* MKDrawNavigationViewController.m */,
 				19874C5C1D3DEEAE00102A2F /* Main.storyboard */,
 				19874C5F1D3DEEAE00102A2F /* Assets.xcassets */,
 				19874C611D3DEEAE00102A2F /* LaunchScreen.storyboard */,
@@ -289,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1944056D1D3F2ED30044645A /* MKDrawNavigationViewController.m in Sources */,
 				19874C901D3E30ED00102A2F /* MKNavigationViewController.m in Sources */,
 				19874C5B1D3DEEAE00102A2F /* ViewController.m in Sources */,
 				19874C581D3DEEAE00102A2F /* AppDelegate.m in Sources */,
@@ -518,6 +524,7 @@
 				19874C7F1D3DEEAE00102A2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19874C801D3DEEAE00102A2F /* Build configuration list for PBXNativeTarget "MapKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				19874C821D3DEEAE00102A2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19874C831D3DEEAE00102A2F /* Build configuration list for PBXNativeTarget "MapKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				19874C851D3DEEAE00102A2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

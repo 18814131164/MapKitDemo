@@ -140,6 +140,7 @@
     NSLog(@"选中");
     NSLog(@"%@",view.annotation);
 }
+
 // 不选中
 -(void)mapView:(MKMapView *)mapView didDeselectAnnotationView:(MKAnnotationView *)view
 {

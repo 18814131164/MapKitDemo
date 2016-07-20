@@ -35,7 +35,7 @@
 //    MKMapView *mapView = [MKMapView new];
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
     [self lm];
     
@@ -69,21 +69,21 @@
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation{
     /**
         MKUserLocation (大头针模型)
-     
      */
+    
     userLocation.title = @"众网合一";
     userLocation.subtitle = @"保利中辰";
     
     // 设置地图显示中心
     [self.mapView setCenterCoordinate:userLocation.location.coordinate animated:YES];
     
-    MKCoordinateSpan span = MKCoordinateSpanMake(0.001, 0.001);
+    MKCoordinateSpan span = MKCoordinateSpanMake(50, 50);
     
     MKCoordinateRegion region = MKCoordinateRegionMake(userLocation.location.coordinate, span);
  
-    
     // 设置地图显示区域
     [self.mapView setRegion:region animated:YES];
+    
 }
 
 // 区域改变时调用
@@ -91,6 +91,5 @@
 
     NSLog(@"%f-----%f",mapView.region.span.latitudeDelta,mapView.region.span.longitudeDelta);
 }
-
 
 @end

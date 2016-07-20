@@ -32,8 +32,7 @@
 {
     
     // 3D视角
-//    MKMapCamera *camer = [MKMapCamera cameraLookingAtCenterCoordinate:(CLLocationCoordinate2DMake(23.132931, 113.375924)) fromEyeCoordinate:(CLLocationCoordinate2DMake(23.135921, 113.375924)) eyeAltitude:10];
-//    
+//  MKMapCamera *camer = [MKMapCamera cameraLookingAtCenterCoordinate:(CLLocationCoordinate2DMake(23.132931, 113.375924)) fromEyeCoordinate:(CLLocationCoordinate2DMake(23.135921, 113.375924)) eyeAltitude:10];  
 //    self.mapView.camera = camer;
     
     // 地图快照截图
